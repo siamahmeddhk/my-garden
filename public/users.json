@@ -1,0 +1,125 @@
+[
+  {
+  
+    "name": "Rahim Uddin",
+    "age": 35,
+    "gender": "Male",
+    "status": "Active",
+    "experiences": 8,
+    "image": "https://i.ibb.co/hFY2d3Mr/boy42.png",
+    "totalSharedTips": 23,
+    "bio": "Specializes in rooftop vegetable gardening in Dhaka.",
+    "district": "Dhaka"
+  },
+  {
+  
+    "name": "Shamima Akter",
+    "age": 22,
+    "gender": "Female",
+    "status": "Active",
+    "experiences": 10,
+    "image": "https://i.ibb.co/Q3t3PXYm/girl22.png",
+    "totalSharedTips": 30,
+    "bio": "Expert in medicinal plant cultivation in Chittagong.",
+    "district": "Chattogram"
+  },
+  {
+  
+    "name": "Tanvir Hasan",
+    "age": 29,
+    "gender": "Male",
+    "status": "Inactive",
+    "experiences": 5,
+    "image": "https://i.ibb.co/xSMNy2WT/boy40.png",
+    "totalSharedTips": 12,
+    "bio": "Loves working with hydroponic systems.",
+    "district": "Khulna"
+  },
+  {
+  
+    "name": "Nasima Khatun",
+    "age": 30,
+    "gender": "Female",
+    "status": "Active",
+    "experiences": 7,
+    "image": "https://i.ibb.co/WWSxdsbf/girl30.png",
+    "totalSharedTips": 18,
+    "bio": "Specialist in balcony flower gardening.",
+    "district": "Narayanganj"
+  },
+  {
+   
+    "name": "Imran Hossain",
+    "age": 33,
+    "gender": "Male",
+    "status": "Active",
+    "experiences": 6,
+    "image": "https://i.ibb.co/BVG6YrvS/boy39.png",
+    "totalSharedTips": 20,
+    "bio": "Promotes sustainable composting methods in Barisal.",
+    "district": "Barisal"
+  },
+  {
+  
+    "name": "Fatema Begum",
+    "age": 45,
+    "gender": "Female",
+    "status": "Inactive",
+    "experiences": 15,
+    "image": "https://i.ibb.co/Jb1Z5QJ/girl45.png",
+    "totalSharedTips": 35,
+    "bio": "Teaches organic farming to rural women.",
+    "district": "Mymensingh"
+  },
+  {
+ 
+    "name": "Sajjad Karim",
+    "age": 40,
+    "gender": "Male",
+    "status": "Active",
+    "experiences": 11,
+    "image": "https://i.ibb.co/Ngm11H8w/boy27.png",
+    "totalSharedTips": 25,
+    "bio": "Has a community gardening project in Rajshahi.",
+    "district": "Rajshahi"
+  },
+  {
+    
+    "name": "Rina Sultana",
+    "age": 36,
+    "gender": "Female",
+    "status": "Active",
+    "experiences": 9,
+    "image": "https://i.ibb.co/tMbVmjsJ/girl40.png",
+    "totalSharedTips": 28,
+    "bio": "Focuses on permaculture and urban gardens.",
+    "district": "Comilla"
+  },
+  {
+
+    "name": "Faisal Mahmud",
+    "age": 31,
+    "gender": "Male",
+    "status": "Inactive",
+    "experiences": 4,
+    "image": "https://i.ibb.co/jP80z0NZ/boy28.png",
+    "totalSharedTips": 9,
+    "bio": "New to bonsai gardening and native species.",
+    "district": "Sylhet"
+  },
+  {
+ 
+    "name": "Shaila Ahmed",
+    "age": 27,
+    "gender": "Female",
+    "status": "Active",
+    "experiences": 3,
+    "image": "https://i.ibb.co/WvnDYbcm/girl25.png",
+    "totalSharedTips": 11,
+    "bio": "Young gardener focused on indoor plant care.",
+    "district": "Gazipur"
+  }
+]
+
+
+
