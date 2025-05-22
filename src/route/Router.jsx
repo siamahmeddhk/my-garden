@@ -7,6 +7,7 @@ import Gardentips from "../pages/Gardentips";
 import Singeltips from "../comp/Singeltips";
 import Tipsdetails from "../pages/Tipsdetails";
 import Mytips from "../pages/Mytips";
+import Reg from "../pages/Reg";
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
           loader: () => fetch('http://localhost:3000/tips'),
           Component: Mytips,
         },
+        {
+          path: '/signup',
+          Component: Reg,
+        }
     ]
   },
 ]);

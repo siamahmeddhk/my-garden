@@ -1,7 +1,7 @@
 import React, {} from 'react';
 import { FaLeaf } from 'react-icons/fa';
 import { FiLogOut } from 'react-icons/fi';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Nav = () => {
  
@@ -53,8 +53,13 @@ const Nav = () => {
       </div>
 
       <div className="navbar-end">
- 
-          <a className="btn btn-sm bg-green-500 hover:bg-green-600 text-white">Login / Signup</a>
+        <Link to='/signup'>
+
+         <a className="btn btn-sm bg-green-500 hover:bg-green-600 text-white">Login / Signup</a>
+
+        
+        </Link>
+         
     
 
       </div>
