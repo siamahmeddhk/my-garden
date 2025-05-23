@@ -8,11 +8,14 @@ import Singeltips from "../comp/Singeltips";
 import Tipsdetails from "../pages/Tipsdetails";
 import Mytips from "../pages/Mytips";
 import Reg from "../pages/Reg";
+import Login from "../pages/Login";
+import Notfound from "../pages/Notfound";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    errorElement: <Notfound></Notfound>,
     children: [
         {
             index: true,
@@ -45,6 +48,10 @@ export const router = createBrowserRouter([
         {
           path: '/signup',
           Component: Reg,
+        },
+        {
+          path: '/login',
+          Component: Login,
         }
     ]
   },
