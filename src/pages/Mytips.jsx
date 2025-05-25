@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { } from 'react';
 import { useLoaderData } from 'react-router';
 import Singeltips from '../comp/Singeltips';
 import Mysingletips from '../comp/Mysingletips';
+import { Authcontext } from '../Auth/Authcontext';
 
 const Mytips = () => {
     const mytips = useLoaderData()
-   
+
+
     return (
         <div>
              <div className="p-4">
