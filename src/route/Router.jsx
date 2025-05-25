@@ -11,6 +11,7 @@ import Reg from "../pages/Reg";
 import Login from "../pages/Login";
 import Notfound from "../pages/Notfound";
 import Update from "../pages/Update";
+import Newsletter from "../pages/Newsletter";
 
 export const router = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ export const router = createBrowserRouter([
          path: '/updatetips/:id',
          loader: ({params}) => fetch(`http://localhost:3000/tips/${params.id}`),
          Component: Update,
+        },
+        {
+          path: '/newsletter',
+          Component: Newsletter,
         }
     ]
   },

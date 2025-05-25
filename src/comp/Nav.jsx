@@ -212,6 +212,7 @@ const Nav = () => {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/gardeners">Explore Gardeners</NavLink></li>
             <li><NavLink to="/browse">Browse Tips</NavLink></li>
+            <li><NavLink to="/newsletter">Newsletter</NavLink></li>
             {user && <li><NavLink to="/tipsubmit">Share a Garden Tip</NavLink></li>}
             {user && <li><NavLink to="/my-tips">My Tips</NavLink></li>}
             {!user && <li><NavLink to="/signup">Login / Signup</NavLink></li>}
@@ -227,8 +228,12 @@ const Nav = () => {
           <NavLink to="/"><li><a>Home</a></li></NavLink>
           <NavLink to="/gardeners"><li><a>Explore Gardeners</a></li></NavLink>
           <NavLink to="/browse"><li><a>Browse Tips</a></li></NavLink>
+           
+
           {user && <NavLink to="/tipsubmit"><li><a>Share a Garden Tip</a></li></NavLink>}
           {user && <NavLink to="/my-tips"><li><a>My Tips</a></li></NavLink>}
+
+           <li><NavLink to="/newsletter">Newsletter</NavLink></li>
         </ul>
       </div>
 
