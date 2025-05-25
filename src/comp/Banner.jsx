@@ -136,16 +136,16 @@ import gsap from "gsap";
 
 const slides = [
   {
-    message: "Grow Together",
-    image: "https://images.unsplash.com/photo-1688557676493-dbea7a8e7b2e?auto=format&fit=crop&w=1600&q=80",
+    message: "Grow Tog A mini workshop on plant care basicsther",
+    image: "/cactus.png",
   },
   {
-    message: "Urban Gardening Made Simple",
-    image: "https://images.unsplash.com/photo-1688557676493-dbea7a8e7b2e?auto=format&fit=crop&w=1600&q=80",
+    message: "Hands-on session for repotting and decorating plants",
+    image: "/indoor.png",
   },
   {
-    message: "Your Green Journey Starts Here",
-    image: "https://images.unsplash.com/photo-1616247279075-c38eb2837efa?auto=format&fit=crop&w=1600&q=80",
+    message: " Community event to exchange plant cuttings and seeds",
+    image: "/indoor2.png",
   },
 ];
 
