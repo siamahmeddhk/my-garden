@@ -1,36 +1,11 @@
-import React, { useState } from 'react';
+
 import { useLoaderData } from 'react-router';
 import { IoHeart } from 'react-icons/io5';
 
 const Tipsdetails = () => {
   const tip = useLoaderData();
-  const [likes, setLikes] = useState(tip.totalLiked || 0);
-  const [liked, setLiked] = useState(false);
-
-  const handleLike = async () => {
-    if (liked) return;
-
-    try {
-      // Optimistically update UI
-      setLikes(likes + 1);
-      setLiked(true);
-
-      // Send update to DB
-      await fetch(`https://your-api.com/tips/${tip._id}/like`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ totalLiked: likes + 1 }),
-      });
-    } catch (error) {
-      console.error('Failed to like tip:', error);
-      // Rollback if needed
-      setLikes(likes);
-      setLiked(false);
-    }
-  };
-
+  
+ 
   return (
     <div className="max-w-2xl mt-12 mx-auto">
       <div className="card bg-white shadow-xl border border-gray-100 rounded-2xl overflow-hidden">
@@ -54,19 +29,10 @@ const Tipsdetails = () => {
 
           <div className="card-actions justify-between mt-6 items-center">
             <div className="flex items-center gap-2 text-green-700">
-              <IoHeart className={`text-2xl ${liked ? 'text-red-600' : 'hover:text-red-400'}`} />
-              <span>{likes} Likes</span>
+           
             </div>
 
-            <button
-              onClick={handleLike}
-              disabled={liked}
-              className={`btn btn-sm rounded-full px-4 py-1 text-white transition ${
-                liked ? 'bg-gray-400 cursor-not-allowed' : 'bg-green-600 hover:bg-green-700'
-              }`}
-            >
-              {liked ? 'Liked' : 'Like Tip'}
-            </button>
+          
           </div>
         </div>
       </div>

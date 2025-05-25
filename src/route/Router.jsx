@@ -36,7 +36,8 @@ export const router = createBrowserRouter([
           path: '/browse',
           loader: () => fetch('http://localhost:3000/tips'),
           Component: Gardentips,
-        },{
+        },
+        {
           path: '/tips/:id',
           loader: ({params}) => fetch(`http://localhost:3000/tips/${params.id}`),
           Component: Tipsdetails,
