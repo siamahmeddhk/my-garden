@@ -85,7 +85,7 @@ const BrowseTips = () => {
   const fetchTips = async (level = '') => {
     try {
       const query = level ? `?difficultyLevel=${level}` : '';
-      const response = await fetch(`http://localhost:3000/tips${query}`);
+      const response = await fetch(`https://y-gray-seven.vercel.app/tips${query}`);
       const data = await response.json();
       setTips(data);
     } catch (err) {

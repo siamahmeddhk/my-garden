@@ -16,7 +16,7 @@
 //     tipsData.authorName = user?.displayName || "Anonymous";
 //     tipsData.authorEmail = user?.email;
 
-//         fetch('http://localhost:3000/tips',{
+//         fetch('https://y-gray-seven.vercel.app/tips',{
 //             method: 'POST',
 //             headers: {
 //                 'content-type' : 'application/json'
@@ -198,7 +198,7 @@
 //     tipsData.authorName = user?.displayName || "Anonymous";
 //     tipsData.authorEmail = user?.email;
 
-//         fetch('http://localhost:3000/tips',{
+//         fetch('https://y-gray-seven.vercel.app/tips',{
 //             method: 'POST',
 //             headers: {
 //                 'content-type' : 'application/json'
@@ -385,7 +385,7 @@ const Form = () => {
         tipsData.authorEmail = userEmail;
         tipsData.totalLiked = 0; // ✅ Default like count
 
-        fetch('http://localhost:3000/tips', {
+        fetch('https://y-gray-seven.vercel.app/tips', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -48,7 +48,7 @@
 
 //     useEffect(() => {
 //         if (user?.email) {
-//             fetch(`http://localhost:3000/tips?authorEmail=${user.email}`)
+//             fetch(`https://y-gray-seven.vercel.app/tips?authorEmail=${user.email}`)
 //                 .then(res => res.json())
 //                 .then(data => setMytips(data));
 //         }
@@ -91,7 +91,7 @@ const Mytips = () => {
 
   useEffect(() => {
     if (user?.email) {
-      fetch(`http://localhost:3000/mytips?email=${user.email}`)
+      fetch(`https://y-gray-seven.vercel.app/mytips?email=${user.email}`)
         .then(res => res.json())
         .then(data => {
           setMytips(data);

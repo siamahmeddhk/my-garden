@@ -15,7 +15,7 @@ const Mysingletips = ({ tips }) => {
     }).then((result) => {
       if (result.isConfirmed) {
         
-        fetch(`http://localhost:3000/tips/${id}`,{
+        fetch(`https://y-gray-seven.vercel.app/tips/${id}`,{
             method: "DELETE",
         })
         .then(res=>res.json())

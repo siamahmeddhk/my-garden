@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
         },
         {
           path: '/gardeners',
-          loader: () => fetch('http://localhost:3000/user'),
+          loader: () => fetch('https://y-gray-seven.vercel.app/user'),
           Component: Gardeners,
         },
         {
@@ -35,17 +35,17 @@ export const router = createBrowserRouter([
         },
         {
           path: '/browse',
-          loader: () => fetch('http://localhost:3000/tips'),
+          loader: () => fetch('https://y-gray-seven.vercel.app/tips'),
           Component: Gardentips,
         },
         {
           path: '/tips/:id',
-          loader: ({params}) => fetch(`http://localhost:3000/tips/${params.id}`),
+          loader: ({params}) => fetch(`https://y-gray-seven.vercel.app/tips/${params.id}`),
           Component: Tipsdetails,
         },
          {
           path: '/my-tips',
-          loader: () => fetch('http://localhost:3000/tips'),
+          loader: () => fetch('https://y-gray-seven.vercel.app/tips'),
           Component: Mytips,
         },
         {
@@ -58,7 +58,7 @@ export const router = createBrowserRouter([
         },
         {
          path: '/updatetips/:id',
-         loader: ({params}) => fetch(`http://localhost:3000/tips/${params.id}`),
+         loader: ({params}) => fetch(`https://y-gray-seven.vercel.app/tips/${params.id}`),
          Component: Update,
         },
         {

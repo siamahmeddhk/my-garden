@@ -27,7 +27,7 @@
 //     const upData = Object.fromEntries(formData.entries());
 //     console.log(upData);
 
-//     fetch(`http://localhost:3000/tips/${_id}`, {
+//     fetch(`https://y-gray-seven.vercel.app/tips/${_id}`, {
 //       method: "PUT",
 //       headers: {
 //         "content-type": "application/json",
@@ -248,7 +248,7 @@ const Update = () => {
     const upData = Object.fromEntries(formData.entries());
     console.log(upData);
 
-    fetch(`http://localhost:3000/tips/${_id}`, {
+    fetch(`https://y-gray-seven.vercel.app/tips/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

@@ -64,7 +64,7 @@
 //     setLiked(true);
 
 //     try {
-//       const res = await fetch(`http://localhost:3000/tips/${tip._id}`, {
+//       const res = await fetch(`https://y-gray-seven.vercel.app/tips/${tip._id}`, {
 //         method: 'PATCH',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -147,7 +147,7 @@ const TipsDetails = () => {
       setLikes(newLikes);
       setLiked(true);
 
-      const res = await fetch(`http://localhost:3000/tips/${tip._id}`, {
+      const res = await fetch(`https://y-gray-seven.vercel.app/tips/${tip._id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
