@@ -12,6 +12,7 @@ import Login from "../pages/Login";
 import Notfound from "../pages/Notfound";
 import Update from "../pages/Update";
 import Newsletter from "../pages/Newsletter";
+import Allgardeners from "../pages/Allgardeners";
 
 export const router = createBrowserRouter([
   {
@@ -64,6 +65,11 @@ export const router = createBrowserRouter([
         {
           path: '/newsletter',
           Component: Newsletter,
+        },
+        {
+          path: '/all-gardeners',
+            loader: () => fetch('https://y-gray-seven.vercel.app/alluser'),
+          Component: Allgardeners,
         }
     ]
   },

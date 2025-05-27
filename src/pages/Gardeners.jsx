@@ -1,21 +1,60 @@
-import React from 'react';
+// import React from 'react';
+// import { useLoaderData } from 'react-router';
+// import Singelgardener from '../comp/Singelgardener';
+
+// const Gardeners = () => {
+
+//     const gardenders = useLoaderData()
+//     console.log(gardenders)
+
+//     return (
+//         <div>
+//             <div className='mx-auto grid grid-cols-1 md:grid-cols-3 py-6'>
+//                 {
+//                     gardenders.map(gardener=><Singelgardener gardener={gardener}></Singelgardener>)
+//                 }
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default Gardeners;
+
+
+import React, { useState, useEffect } from 'react';
 import { useLoaderData } from 'react-router';
 import Singelgardener from '../comp/Singelgardener';
 
 const Gardeners = () => {
+  const data = useLoaderData();
+  const [loading, setLoading] = useState(true);
+  const [gardeners, setGardeners] = useState([]);
 
-    const gardenders = useLoaderData()
-    console.log(gardenders)
+  useEffect(() => {
+    if (data && Array.isArray(data)) {
+      setGardeners(data);
+      setLoading(false);
+    }
+  }, [data]);
 
+  if (loading) {
     return (
-        <div>
-            <div className='mx-auto grid grid-cols-1 md:grid-cols-3 py-6'>
-                {
-                    gardenders.map(gardener=><Singelgardener gardener={gardener}></Singelgardener>)
-                }
-            </div>
-        </div>
+      <div className="min-h-screen flex justify-center items-center">
+        <div className="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-green-500"></div>
+      </div>
     );
+  }
+
+  return (
+    <div className="p-6 max-w-7xl mx-auto">
+      <h1 className="text-3xl font-bold text-center text-green-800 mb-8">Active Gardeners</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {gardeners.map(gardener => (
+          <Singelgardener key={gardener._id} gardener={gardener} />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Gardeners;

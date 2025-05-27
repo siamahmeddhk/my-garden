@@ -3,7 +3,8 @@ import { FaPaperPlane, FaLeaf } from 'react-icons/fa';
 
 export default function Newsletter() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-r from-green-50 to-emerald-100 rounded-xl shadow-lg max-w-4xl mx-auto my-16 p-8 md:p-12 border border-green-200">
+    <div className=' '>
+  <div className="relative overflow-hidden bg-gradient-to-r from-green-50 to-emerald-100 rounded-xl shadow-lg max-w-4xl mx-auto my-16 p-8 md:p-12 border border-green-200">
       {/* Decorative elements */}
       <div className="absolute -top-10 -right-10 w-32 h-32 rounded-full bg-green-200 opacity-20"></div>
       <div className="absolute -bottom-16 -left-16 w-40 h-40 rounded-full bg-emerald-200 opacity-20"></div>
@@ -84,5 +85,9 @@ export default function Newsletter() {
         </div>
       </div>
     </div>
+
+
+    </div>
+  
   );
 }
