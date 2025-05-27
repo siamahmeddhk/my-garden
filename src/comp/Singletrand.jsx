@@ -1,33 +1,4 @@
-// import React from 'react';
 
-// const Singeltrand = ({ tip }) => {
-//   return (
-//     <div className="max-w-sm bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-200">
-//       <img className="w-full h-48 object-cover" src={tip.imageUrl} alt={tip.title} />
-//       <div className="p-5">
-//         <h2 className="text-xl font-semibold text-green-800 mb-2">{tip.title || "Untitled Tip"}</h2>
-//         <p className="text-sm text-gray-600 mb-3">{tip.description}</p>
-
-//         <div className="flex flex-wrap gap-2 text-xs text-white font-medium mb-3">
-//           <span className="bg-green-600 px-2 py-1 rounded">{tip.category}</span>
-//           <span className="bg-blue-500 px-2 py-1 rounded">{tip.difficulty}</span>
-//           <span className="bg-yellow-500 px-2 py-1 rounded">{tip.plantType}</span>
-//         </div>
-
-//         <div className="text-sm text-gray-700 mb-2">
-//           <span className="font-medium">Author:</span> {tip.authorName}
-//         </div>
-
-//         <div className="flex items-center justify-between mt-4">
-//           <span className="text-sm text-gray-600">Visibility: {tip.availability}</span>
-//           <span className="text-red-500 font-semibold">{tip.totalLiked} ❤️</span>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Singeltrand;
 
 
 import React from 'react';

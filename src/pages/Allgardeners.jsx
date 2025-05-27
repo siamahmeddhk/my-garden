@@ -1,18 +1,4 @@
-// import React from 'react';
-// import { useLoaderData } from 'react-router';
 
-// const Allgardeners = () => {
-
-//     const user = useLoaderData();
-//     console.log(user);
-//     return (
-//         <div>
-            
-//         </div>
-//     );
-// };
-
-// export default Allgardeners;
 
 
 import React, { useState, useEffect } from 'react';

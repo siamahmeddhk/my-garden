@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 const GardenerCard = ({ gardener }) => {
   const [isLoading, setIsLoading] = useState(true);
 
-  // Simulate loading state
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500); // Adjust this to match your actual loading time
+    }, 1500); 
     
     return () => clearTimeout(timer);
   }, []);
@@ -15,7 +15,7 @@ const GardenerCard = ({ gardener }) => {
   if (isLoading) {
     return (
       <div className="max-w-sm bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden animate-pulse">
-        {/* Image placeholder */}
+       
         <div className="w-full h-56 bg-gray-200"></div>
         
         <div className="p-5 space-y-4">
@@ -38,7 +38,7 @@ const GardenerCard = ({ gardener }) => {
             ))}
           </div>
           
-          {/* Footer placeholders */}
+        
           <div className="flex justify-between items-center mt-4">
             <div className="h-4 bg-gray-200 rounded-full w-1/3"></div>
             <div className="h-6 bg-gray-200 rounded-full w-1/4"></div>

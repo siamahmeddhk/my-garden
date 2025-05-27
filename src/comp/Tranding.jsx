@@ -1,34 +1,4 @@
-// import React, { useEffect, useState } from 'react';
-// import Singeltrand from './Singletrand';
 
-// const Tranding = () => {
-    
-
-//    const [alldata, setalldata] = useState([])
-//    useEffect(()=>{
-//     fetch('https://y-gray-seven.vercel.app/trandtips')
-//     .then(res=>res.json())
-//     .then(data=>{
-//         console.log(data)
-//         setalldata(data)
-//     })
-//    },[])
-
-//     return (
-//         <div>
-//                <div>
-//       <h1>This is Trending</h1>
-//       <div className=''>
-//         {alldata.map(tip => (
-//            <Singeltrand tip = {tip}></Singeltrand>  
-//         ))}
-//       </div>
-//     </div>
-//         </div>
-//     );
-// };
-
-// export default Tranding;
 
 import React, { useEffect, useState, useRef } from 'react';
 import Singeltrand from './Singletrand';
