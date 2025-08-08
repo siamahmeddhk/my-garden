@@ -2,10 +2,14 @@
 Garden Hub
 A full-stack web application designed for gardening enthusiasts to connect, share knowledge, and access valuable plant care resources.
 
+
+
 🚀 Live Links
 Live Site (Client): https://ph-green-land.netlify.app/
 
 Live API Server (Backend): https://y-h7s6t12r8-siamahmeddhks-projects.vercel.app
+
+
 
 ✨ Key Features
 Interactive Gardening Community: Connect with fellow gardening enthusiasts, share tips, and learn from experts.
@@ -18,8 +22,13 @@ Personal Gardening Journal: Track your own gardening tips and progress with publ
 
 Dark/Light Mode Toggle: Customizable viewing experience for day and night Browse.
 
+
+
 📖 Project Overview
 Garden Hub is a full-stack web application for the gardening community. Built with React.js, Firebase Authentication, and MongoDB, and styled with Tailwind CSS, this platform offers a range of interactive features. The application follows modern web development practices with proper environment variable management, private routing, and state persistence to provide a seamless user experience.
+
+
+
 
 🛠️ Technologies Used
 Frontend
@@ -50,12 +59,19 @@ Vercel for deployment
 
 CORS for cross-origin requests
 
+
+
+
+
 Development Tools
 Git for version control
 
 Netlify for frontend deployment
 
 Vercel for backend deployment
+
+
+
 
 📋 Installation
 To get a local copy up and running, follow these simple steps:
@@ -65,9 +81,9 @@ Clone the repositories:
 Bash
 
 # Clone the client-side repository
-git clone https://github.com/your-username/garden-hub-client.git
+git clone https://github.com/siamahmeddhk/my-garden.git
 # Clone the server-side repository
-git clone https://github.com/your-username/garden-hub-server.git
+git clone https://github.com/siamahmeddhk/garden-hub-server.git
 Install dependencies in both the client and server directories:
 
 Bash
@@ -102,6 +118,8 @@ User profile sections
 Public Browse interfaces
 
 Administrative functions
+
+
 
 ✅ Mew features:
 Filtering System: Browse tips by difficulty level (Easy/Medium/Hard).
